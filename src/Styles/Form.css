@@ -1,0 +1,22 @@
+form {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: center;
+    border-radius: 20px;
+    background: linear-gradient(0deg, rgba(30,38,71,1) 100%, rgba(9,34,250,1) 100%);
+}
+input {
+    color: #fff;
+    font-weight: 600;
+}
+
+.row .col {
+    padding: 20px;
+}
+
+@media screen and (max-width: 1200px){
+    form {
+        height: 50vh;
+    }
+}
